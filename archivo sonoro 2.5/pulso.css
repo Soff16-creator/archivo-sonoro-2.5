@@ -1,0 +1,349 @@
+:root {
+
+  --color-texto:#ffffff;
+  --color-secundario:#b4beb2;
+  --color-letraverde:#67ff4f;
+  --color-cajas:rgba(255,255,255,0.03);
+  --color-bordes: rgba(255,255,255,0.05);
+  --color-iconos: #67ff4f
+
+}
+
+
+* {
+  
+  box-sizing: border-box;
+}
+
+
+body{
+
+  min-height:100vh;
+  color: var(--color-texto);
+  font-family:sans-serif;
+
+  background:
+    radial-gradient(
+      circle at 50% 40%,
+      #4A3221 0%,
+      #0C1C05 45%,
+      #050B00 86%
+    );
+}
+
+
+.encabezado {
+  height: 120px;
+  padding: 0 10%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-bordes);
+}
+
+
+
+.logo {
+
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+
+.logo-icono {
+
+    color: var(--color-iconos);
+    font-size: 20px;
+
+}
+
+
+.logo-texto {
+
+    font-size: 20px;
+
+}
+
+
+.navegacion {
+
+    display: flex;
+    gap: 32px;
+}
+
+
+.navegacion-enlace {
+
+    color: var(--color-secundario);
+    text-decoration: none;
+}
+
+
+.pagina-categoria {
+
+  min-height: 100vh;
+}
+
+.categoria-hero {
+
+  padding: 110px 8%;
+  text-align: center;
+
+  background: linear-gradient(
+    to right,
+    rgba(255,255,255,0.18),
+    rgba(70,255,70,0.12)
+  );
+}
+
+.categoria-contenido {
+
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.categoria-titulo {
+
+  margin-bottom: 24px;
+
+  font-size: 82px;
+  font-weight: 300;
+  line-height: 1;
+  
+}
+
+.categoria-subtitulo {
+
+  margin-bottom: 16px;
+  color: var(--color-secundario);
+  font-size: 19px;
+}
+
+.categoria-cantidad {
+
+  color: var(--color-letraverde);
+  font-size: 16px;
+}
+
+.categoria-intro {
+
+  padding: 70px 8%;
+}
+
+.categoria-caja {
+
+  margin: 0 auto;
+
+  padding: 34px 44px;
+  border-radius: 16px;
+
+  background: var(--color-cajas);
+  border: 1px solid var(--color-bordes);
+}
+
+.categoria-caja p {
+
+  color: var(--color-secundario);
+
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+
+.audios {
+
+  padding: 20px 8% 120px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 24px;
+}
+
+
+
+.audio-card {
+
+  
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-radius: 18px;
+  background: var(--color-cajas);
+  border: 1px solid var(--color-bordes);
+
+}
+
+
+
+.audio-img {
+
+  width: 240px;
+
+  height: 180px;
+
+ 
+
+  border-radius: 12px;
+
+  align-self: center;
+}
+
+
+.audio-info {
+
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.audio-top {
+
+  margin-bottom: -10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+
+.audio-titulo {
+
+  margin-bottom: -10px;
+  font-size: 42px;
+  font-weight: 300;
+  
+}
+
+.audio-subtitulo {
+
+  color: var(--color-secundario);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+
+.audio-texto {
+
+  max-width: 760px;
+
+  margin-bottom: 10px;
+
+  color: var(--color-secundario);
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+
+
+.audio-player {
+
+  width: 100%;
+  margin-bottom: 18px;
+  opacity: 0.85;
+}
+
+
+
+.audio-meta {
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.audio-tag {
+
+  padding: 7px 14px;
+  border-radius: 18px;
+  background: var(--color-cajas);
+  border: 1px solid var(--color-bordes);
+  color: var(--color-secundario);
+  font-size: 12px;
+  
+}
+
+.footer {
+
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+
+
+
+
+.footer-linea {
+
+  width: 100%;
+  height: 1px;
+  background: var(--color-bordes)
+}
+
+
+
+.footer-contenido {
+
+  padding: 54px 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+.footer-logo {
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+
+.footer-icono {
+
+  color: var(--color-letraverde);
+  font-size: 22px;
+}
+
+
+.footer-texto {
+
+  font-size: 20px;
+  font-weight: 300;
+
+}
+
+
+.footer-descripcion {
+
+  color: var(--color-secundario);
+  font-size: 14px;
+}
+
+
+.footer-copy {
+
+  padding-top: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-secundario);
+  font-size: 12px;
+}
+
+
+.footer-copy-icono {
+
+  font-size: 16px;
+}
