@@ -137,7 +137,7 @@ color: var(--color-secundario);
 .btn {
 
   padding: 14px 28px;
-  border-radius: 1000px;
+  border-radius: 24px;
   text-decoration: none;
   font-size: 14px;
   transition: 0.3s;
@@ -168,14 +168,14 @@ color: var(--color-secundario);
 
 .btn-2 {
 
-  border: 1px solid rgba(255,255,255,0.2);
+  border: 1px solid rgb(255,255,255,0.2);
   color: white;
 }
 
 
 .btn-2:hover {
 
-  background: rgba(255,255,255,0.08);
+  background: rgb(255,255,255,0.08);
 }
 
 
@@ -241,7 +241,7 @@ color: var(--color-secundario);
   align-items: center;
   gap: 28px;
 
-  border-radius: 22px;
+  border-radius: 24px;
   border: 1px solid var(--color-bordes);
   background: var(--color-cajas);
 
@@ -420,7 +420,7 @@ color: var(--color-secundario);
 
   width: 100%;
   height: 430px;
-  border-radius: 10px;
+  border-radius: 12px;
   margin-bottom: 22px;
 }
 
@@ -521,4 +521,246 @@ color: var(--color-secundario);
 .footer-copy-icono {
 
   font-size: 16px;
+}
+
+
+@media (max-width: 768px){
+
+  body{
+
+    overflow-x:hidden;
+  }
+
+
+  .encabezado{
+
+    height:auto;
+    padding:24px 6%;
+
+    flex-direction:column;
+    align-items:flex-start;
+    gap:20px;
+  }
+
+
+  .logo-texto{
+
+    font-size:18px;
+  }
+
+
+  .navegacion{
+
+    gap:18px;
+    flex-wrap:wrap;
+  }
+
+
+  .hero{
+
+    min-height:auto;
+    padding:90px 6%;
+  }
+
+
+  .hero h1{
+
+    font-size:64px;
+    line-height:1;
+    letter-spacing:-2px;
+  }
+
+
+  .hero-descripcion{
+
+    font-size:16px;
+    line-height:1.8;
+  }
+
+
+  .hero-botones{
+
+    flex-direction:column;
+    align-items:center;
+    gap:16px;
+  }
+
+
+  .btn{
+
+    width:100%;
+    max-width:280px;
+
+    text-align:center;
+  }
+
+
+  .intro{
+
+    padding:90px 6%;
+
+    flex-direction:column;
+    gap:48px;
+  }
+
+
+  .intro-info{
+
+    max-width:100%;
+  }
+
+
+  .intro-etiqueta{
+
+    font-size:16px;
+  }
+
+
+  .intro-titulo{
+
+    font-size:42px;
+    line-height:1.1;
+
+    letter-spacing:-1px;
+  }
+
+
+  .intro-texto{
+
+    font-size:15px;
+    line-height:1.8;
+  }
+
+
+  .estadisticas{
+
+    width:100%;
+  }
+
+
+  .estadistica-card{
+
+    height:auto;
+    padding:22px;
+
+    align-items:flex-start;
+    flex-direction:column;
+    gap:10px;
+  }
+
+
+  .estadistica-card h3{
+
+    font-size:26px;
+  }
+
+
+  .territorios{
+
+    padding:90px 6%;
+  }
+
+
+  .territorios-etiqueta{
+
+    font-size:16px;
+  }
+
+
+  .territorios-titulo{
+
+    font-size:42px;
+    line-height:1.1;
+  }
+
+
+  .territorios-descripcion{
+
+    font-size:15px;
+    line-height:1.7;
+  }
+
+
+  .territorios-grid{
+
+    grid-template-columns:1fr;
+  }
+
+
+  .territorio-card{
+
+    padding:22px;
+  }
+
+
+  .territorio-card h3{
+
+    font-size:26px;
+  }
+
+
+  .territorio-card p{
+
+    font-size:15px;
+    margin-bottom:28px;
+  }
+
+
+  .videos{
+
+    padding:90px 6%;
+  }
+
+
+  .videos-etiqueta{
+
+    font-size:16px;
+  }
+
+
+  .videos-titulo{
+
+    font-size:42px;
+    line-height:1.1;
+  }
+
+
+  .videos-grid{
+
+    grid-template-columns:1fr;
+  }
+
+
+  .video-card-video{
+
+    height:auto;
+    aspect-ratio:16/9;
+
+    object-fit:cover;
+  }
+
+
+  .footer{
+
+    padding-top:60px;
+  }
+
+
+  .footer-contenido{
+
+    padding:40px 6%;
+  }
+
+
+  .footer-texto{
+
+    font-size:18px;
+  }
+
+
+  .footer-descripcion{
+
+    line-height:1.6;
+  }
+
 }
