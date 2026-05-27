@@ -89,6 +89,7 @@ body{
   min-height: 100vh;
 }
 
+
 .categoria-hero {
 
   padding: 110px 8%;
@@ -124,16 +125,21 @@ body{
   font-size: 19px;
 }
 
+
 .categoria-cantidad {
 
   color: var(--color-letraverde);
   font-size: 16px;
 }
 
+
+
+
 .categoria-intro {
 
   padding: 70px 8%;
 }
+
 
 .categoria-caja {
 
@@ -145,6 +151,7 @@ body{
   background: var(--color-cajas);
   border: 1px solid var(--color-bordes);
 }
+
 
 .categoria-caja p {
 
@@ -187,8 +194,6 @@ body{
 
   width: 240px;
   height: 180px;
-
- 
 
   border-radius: 12px;
   align-self: center;
@@ -250,6 +255,8 @@ conic-gradient(from 180deg,
     flex-shrink: 0;
 }
 
+
+
 .audio-info {
 
   flex: 1;
@@ -258,6 +265,8 @@ conic-gradient(from 180deg,
   flex-direction: column;
   justify-content: center;
 }
+
+
 
 .audio-top {
 

@@ -68,17 +68,20 @@ body{
 
 }
 
+
 .navegacion {
 
     display: flex;
     gap: 32px;
 }
 
+
 .navegacion-enlace {
 
     color: var(--color-secundario);
     text-decoration: none;
 }
+
 
 .hero {
 
@@ -113,11 +116,10 @@ body{
 
 .hero-descripcion {
 
-color: var(--color-secundario);
+  color: var(--color-secundario);
   max-width: 650px;
   margin: 0 auto;
   font-size: 18px;
-  line-height: 1.7;
   margin-bottom: 42px;
 }
 
@@ -199,17 +201,15 @@ color: var(--color-secundario);
 .intro-etiqueta {
   
   color: var(--color-letraverde);
-
   font-size: 20px;
  
 }
 
 .intro-titulo {
-  margin-bottom: 24px;
 
+  margin-bottom: 24px;
   font-size: 58px;
   font-weight: 300;
-  line-height: 1;
   letter-spacing: -3px;
 }
 
@@ -280,6 +280,7 @@ color: var(--color-secundario);
   color: var(--color-letraverde);
   font-size: 20px;
 }
+
 
 .territorios-titulo {
 
